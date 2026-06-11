@@ -1,0 +1,46 @@
+{
+  "task_id": "COMPROMISE-MVP-LEGAL-SCOPE-LOCK-002",
+  "repository": "solomonczyk/compromise",
+  "branch": "main",
+  "starting_commit": "363c6917349a2831ef693f508d6c231b91d5c2f7",
+  "final_commit": "a2a817fe5fd4c3091bb8810281a537f6e3d716d0",
+  "legal_prelaunch_base_integrated": true,
+  "mvp_model_locked": "VERIFIED_JOB_BOARD_ONLY",
+  "not_recruitment_agency": true,
+  "not_temporary_employment_agency": true,
+  "not_success_fee_model": true,
+  "not_candidate_placement_service": true,
+  "license_required_for_verified_job_board": "NOT_CONFIRMED",
+  "lawyer_confirmation_required": true,
+  "blocked_until_legal_review": [
+    "assisted_hiring",
+    "candidate_shortlisting",
+    "screening_interviews",
+    "success_fee",
+    "candidate_selection",
+    "candidate_ranking_for_employers",
+    "AI-based employer-side scoring",
+    "guaranteed hiring",
+    "temporary employment / staffing",
+    "employer-visible skill badges",
+    "simulation reports visible to employers"
+  ],
+  "audience_policy": "OPEN_MULTILINGUAL_MARKETPLACE",
+  "ru_ua_role": "INITIAL_WEDGE_ONLY",
+  "candidate_exclusion_by_nationality": false,
+  "candidate_skill_tests_mvp": "PRIVATE_SELF_ASSESSMENT_ONLY",
+  "simulators_mvp": false,
+  "production_accepted": false,
+  "validation": {
+    "json_validation": "PASS",
+    "legal_package_present": true,
+    "adr_present": true,
+    "readme_updated": true,
+    "runtime_files_changed": false
+  },
+  "git": {
+    "committed": true,
+    "pushed": true,
+    "git_clean_after_work": true
+  }
+}

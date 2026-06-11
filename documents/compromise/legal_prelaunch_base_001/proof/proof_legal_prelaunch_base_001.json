@@ -1,0 +1,26 @@
+{
+  "package": "COMPROMISE-LEGAL-PRELAUNCH-BASE-001",
+  "date": "2026-06-11",
+  "legal_prelaunch_base": "PREPARED",
+  "legal_advice": false,
+  "lawyer_review_required": true,
+  "public_launch_allowed": false,
+  "paid_pilots_allowed": false,
+  "candidate_data_collection_allowed": "BLOCKED_UNTIL_PRIVACY_AND_CONSENT_APPROVED",
+  "ai_recruitment_allowed": false,
+  "cross_border_profile_disclosure_allowed": false,
+  "recruitment_license_analysis_required": true,
+  "sanctions_jurisdiction_gate_required": true,
+  "anti_discrimination_policy_required": true,
+  "production_accepted": false,
+  "blockers": [
+    "privacy_policy",
+    "terms_of_service",
+    "candidate_consent",
+    "recruitment_intermediation_license_analysis",
+    "anti_discrimination_policy",
+    "ai_recruitment_risk_assessment",
+    "sanctions_jurisdiction_gate",
+    "employer_verification_policy"
+  ]
+}

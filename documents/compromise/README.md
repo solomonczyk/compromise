@@ -4,9 +4,10 @@
 
 ```
 documents/compromise/
-├── canon_package_001/          Foundational canonical documentation package
-├── acquisition_strategy_001/   ADR-backed acquisition/growth strategy extension
-└── README.md                   This file
+├── canon_package_001/            Foundational canonical documentation package
+├── acquisition_strategy_001/     ADR-backed acquisition/growth strategy extension
+├── legal_prelaunch_base_001/     BLOCKING LEGAL EXTENSION (MVP scope lock)
+└── README.md                     This file
 ```
 
 ## Package descriptions
@@ -27,12 +28,26 @@ This is an ADR-backed strategic extension covering candidate acquisition, employ
 
 **Important:** This package is an add-on to the canon package. It does **not** replace or modify the foundational documentation. All foundational documentation layers remain closed.
 
+### `legal_prelaunch_base_001` — Blocking Legal Extension
+
+This is a **blocking legal extension** that locks the MVP scope to a verified job board only. It is not legal advice and must be reviewed by qualified Serbian/EU counsel before public launch, paid pilots, cross-border candidate disclosure, AI screening, or recruitment/intermediation services.
+
+The MVP model is locked to **VERIFIED_JOB_BOARD_ONLY**. All recruitment/agency-like features (assisted hiring, candidate shortlisting, screening interviews, success fees, candidate selection/ranking, AI-based employer-side scoring, guaranteed hiring, temporary employment/staffing, employer-visible skill badges, simulation reports visible to employers) are **blocked until legal review**.
+
+Whether a license is required for a verified job board is **NOT CONFIRMED** and requires lawyer confirmation.
+
+- ADR: `docs/10_adr_mvp_verified_job_board_scope_lock.md`
+- Proof: `proof/proof_legal_prelaunch_base_001.json`
+
 ## Integration contract
 
 ```json
 {
   "canon_package_001": "FOUNDATIONAL_CANON",
   "acquisition_strategy_001": "ADR_BACKED_EXTENSION",
+  "legal_prelaunch_base_001": "BLOCKING_LEGAL_EXTENSION",
+  "mvp_model_locked": "VERIFIED_JOB_BOARD_ONLY",
+  "lawyer_review_required": true,
   "replaces_canon": false,
   "fundamental_documentation_layers_remaining": 0,
   "future_changes_require": ["ADR", "change_request"],
