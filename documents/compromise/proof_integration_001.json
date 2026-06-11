@@ -3,7 +3,7 @@
   "repository": "solomonczyk/compromise",
   "branch": "main",
   "starting_commit": "be586e5024b2076979de3c9018641db4a2704861",
-  "final_commit": "eadb2d70d2c2b8bc3b41c5be23b363546a565e82",
+  "final_commit": "0dd2ec4dd471cfe2d5fe6a4992f2e5d332bb233f",
   "canon_package_integrated": true,
   "acquisition_strategy_integrated": true,
   "acquisition_strategy_replaces_canon": false,
