@@ -1,0 +1,96 @@
+{
+  "project": "Compromise",
+  "generated_at": "2026-06-11",
+  "stages": [
+    {
+      "stage_id": "S0",
+      "name": "Canon Lock and Blind-Implementation Audit",
+      "start_date": "2026-06-11",
+      "deadline": "2026-06-13",
+      "owner": "Product Owner",
+      "planned_budget": 0,
+      "maximum_budget": 50,
+      "next_allowed_stage": "S1"
+    },
+    {
+      "stage_id": "S1",
+      "name": "Repository Recovery and Architecture Alignment",
+      "start_date": "2026-06-14",
+      "deadline": "2026-06-20",
+      "owner": "Tech Lead",
+      "planned_budget": 80,
+      "maximum_budget": 180,
+      "next_allowed_stage": "S2"
+    },
+    {
+      "stage_id": "S2",
+      "name": "MVP Hiring Marketplace Core",
+      "start_date": "2026-06-21",
+      "deadline": "2026-06-30",
+      "owner": "Full-stack Lead",
+      "planned_budget": 250,
+      "maximum_budget": 450,
+      "next_allowed_stage": "S3"
+    },
+    {
+      "stage_id": "S3",
+      "name": "Trust, Safety, Analytics and Recovery Layer",
+      "start_date": "2026-07-01",
+      "deadline": "2026-07-07",
+      "owner": "Security and QA Lead",
+      "planned_budget": 180,
+      "maximum_budget": 350,
+      "next_allowed_stage": "S4"
+    },
+    {
+      "stage_id": "S4",
+      "name": "Concierge Validation with Real Employers",
+      "start_date": "2026-07-08",
+      "deadline": "2026-07-14",
+      "owner": "Founder / Product Owner",
+      "planned_budget": 120,
+      "maximum_budget": 260,
+      "next_allowed_stage": "S5"
+    },
+    {
+      "stage_id": "S5",
+      "name": "Closed Beta",
+      "start_date": "2026-07-15",
+      "deadline": "2026-07-24",
+      "owner": "Product Owner + Support Owner",
+      "planned_budget": 200,
+      "maximum_budget": 420,
+      "next_allowed_stage": "S6"
+    },
+    {
+      "stage_id": "S6",
+      "name": "Paid Pilot",
+      "start_date": "2026-07-25",
+      "deadline": "2026-08-03",
+      "owner": "Founder / Sales Owner",
+      "planned_budget": 150,
+      "maximum_budget": 300,
+      "next_allowed_stage": "S7"
+    },
+    {
+      "stage_id": "S7",
+      "name": "Controlled Go-To-Market",
+      "start_date": "2026-08-04",
+      "deadline": "2026-08-10",
+      "owner": "Marketing Owner",
+      "planned_budget": 300,
+      "maximum_budget": 700,
+      "next_allowed_stage": "S8"
+    },
+    {
+      "stage_id": "S8",
+      "name": "Scale Decision and Production Acceptance Gate",
+      "start_date": "2026-08-11",
+      "deadline": "2026-08-17",
+      "owner": "Founder + Technical Owner",
+      "planned_budget": 80,
+      "maximum_budget": 180,
+      "next_allowed_stage": "NONE"
+    }
+  ]
+}

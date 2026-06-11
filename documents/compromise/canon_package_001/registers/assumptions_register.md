@@ -1,0 +1,49 @@
+# assumptions_register
+
+## A-001
+- **id**: A-001
+- **type**: hypothesis
+- **statement**: Первичный рынок — малые и средние работодатели в Сербии и соседних европейских рынках, которым нужен быстрый доступ к кандидатам с русским, украинским, английским или локальным языком.
+- **validation**: 10 employer interviews in S4; paid pilot conversion in S6
+- **owner**: Product Owner
+- **status**: OPEN
+
+## A-002
+- **id**: A-002
+- **type**: provisional decision
+- **statement**: Первый платящий клиент — работодатель, а не кандидат. Кандидатский доступ в MVP бесплатный, чтобы не разрушать ликвидность marketplace.
+- **validation**: Willingness-to-pay test with 3 paid pilot offers
+- **owner**: Sales Owner
+- **status**: LOCKED_UNTIL_S6
+
+## A-003
+- **id**: A-003
+- **type**: hypothesis
+- **statement**: Самая продаваемая первая ценность — не широкая доска вакансий, а быстрое получение релевантных откликов на одну вакансию с ручной модерацией качества.
+- **validation**: Concierge matching acceptance and paid pilot renewal request
+- **owner**: Product Owner
+- **status**: OPEN
+
+## A-004
+- **id**: A-004
+- **type**: provisional decision
+- **statement**: AI используется только для черновых подсказок: улучшение описания вакансии, нормализация резюме, первичная классификация риска. AI не принимает authoritative hiring decisions.
+- **validation**: Prompt evaluation, audit and human review in S3
+- **owner**: Security Lead
+- **status**: LOCKED
+
+## A-005
+- **id**: A-005
+- **type**: hypothesis
+- **statement**: Минимальная цена paid pilot в 49–149 EUR приемлема для малого работодателя, если результат привязан к опубликованной вакансии и обработанным кандидатам.
+- **validation**: S6 payment evidence and refusal reasons
+- **owner**: Sales Owner
+- **status**: OPEN
+
+## A-006
+- **id**: A-006
+- **type**: provisional decision
+- **statement**: Production remains closed until explicit operator acceptance; staging or technical pass does not open production.
+- **validation**: S8 production readiness review
+- **owner**: Founder
+- **status**: LOCKED

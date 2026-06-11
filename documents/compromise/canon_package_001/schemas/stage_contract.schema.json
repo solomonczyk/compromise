@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compromise Stage Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "stage_id",
+    "goal",
+    "owner",
+    "start_date",
+    "deadline",
+    "maximum_timebox_days",
+    "planned_budget",
+    "maximum_budget",
+    "entry_criteria",
+    "in_scope",
+    "out_of_scope",
+    "deliverables",
+    "required_tests",
+    "required_evidence",
+    "kpi_thresholds",
+    "zero_tolerance",
+    "go_conditions",
+    "hold_conditions",
+    "pivot_conditions",
+    "stop_conditions",
+    "next_allowed_stage"
+  ],
+  "properties": {
+    "stage_id": {
+      "type": "string",
+      "pattern": "^S[0-9]+$"
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 20
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 3
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "deadline": {
+      "type": "string",
+      "format": "date"
+    },
+    "maximum_timebox_days": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "planned_budget": {
+      "type": "number",
+      "minimum": 0
+    },
+    "maximum_budget": {
+      "type": "number",
+      "minimum": 0
+    },
+    "entry_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "in_scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "out_of_scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "required_tests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1
+    },
+    "required_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "kpi_thresholds": {
+      "type": "object"
+    },
+    "zero_tolerance": {
+      "type": "object"
+    },
+    "go_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "hold_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "pivot_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "stop_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "minItems": 1
+    },
+    "next_allowed_stage": {
+      "type": "string",
+      "minLength": 2
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "stage_id": "S0",
+  "goal": "Зафиксировать управляемый продукт, закрыть фундаментальные решения документацией и запретить дальнейшую разработку без traceability.",
+  "owner": "Product Owner",
+  "start_date": "2026-06-11",
+  "deadline": "2026-06-13",
+  "maximum_timebox_days": 3,
+  "planned_budget": 0,
+  "maximum_budget": 50,
+  "entry_criteria": [
+    "Репозиторий доступен для чтения",
+    "Текущая реализация не считается источником продуктовой истины",
+    "Документационный пакет принят как baseline"
+  ],
+  "in_scope": [
+    "Аудит текущего состояния",
+    "Фиксация MVP cut line",
+    "Создание stage contracts",
+    "Создание governance lock"
+  ],
+  "out_of_scope": [
+    "Runtime-разработка",
+    "Маркетинговый запуск",
+    "Платёжная интеграция",
+    "Публичные обещания клиентам"
+  ],
+  "deliverables": [
+    "Canonical documentation package",
+    "Artifact index",
+    "Validation proof",
+    "Roadmap and budget matrix"
+  ],
+  "required_tests": [
+    "documentation_non_empty",
+    "schema_validation",
+    "traceability_coverage",
+    "internal_link_check"
+  ],
+  "required_evidence": [
+    "proof_json",
+    "artifact_index_sha256",
+    "validation_report"
+  ],
+  "kpi_thresholds": {
+    "fundamental_documentation_layers_remaining": 0,
+    "traceability_coverage_percent": 100
+  },
+  "zero_tolerance": {
+    "empty_documents": false,
+    "unresolved_mvp_scope": false,
+    "production_accepted": false
+  },
+  "go_conditions": [
+    "All canon documents present and validated",
+    "All stages have GO/HOLD/PIVOT/STOP",
+    "MVP cut line locked"
+  ],
+  "hold_conditions": [
+    "Repository structure unknown",
+    "Validation script fails",
+    "Artifact hashes missing"
+  ],
+  "pivot_conditions": [
+    "Primary segment invalidated by interviews before S2",
+    "Legal review blocks the selected market"
+  ],
+  "stop_conditions": [
+    "No owner accepts governance lock",
+    "Documentation cannot be traced to requirements"
+  ],
+  "next_allowed_stage": "S1"
+}

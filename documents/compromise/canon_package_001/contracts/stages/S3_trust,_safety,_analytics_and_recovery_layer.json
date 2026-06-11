@@ -1,0 +1,76 @@
+{
+  "stage_id": "S3",
+  "goal": "Добавить доверие и операционный контроль: антиспам, audit, analytics, incident paths, AI gateway mock if needed.",
+  "owner": "Security and QA Lead",
+  "start_date": "2026-07-01",
+  "deadline": "2026-07-07",
+  "maximum_timebox_days": 7,
+  "planned_budget": 180,
+  "maximum_budget": 350,
+  "entry_criteria": [
+    "S2 accepted",
+    "Core flows stable",
+    "Admin moderation exists"
+  ],
+  "in_scope": [
+    "Audit logs",
+    "Rate limits",
+    "Duplicate application guard",
+    "Basic analytics events",
+    "Abuse report flow",
+    "Recovery states"
+  ],
+  "out_of_scope": [
+    "Payment disputes",
+    "Advanced machine learning ranking",
+    "Public advertising",
+    "Production scale"
+  ],
+  "deliverables": [
+    "security_controls",
+    "analytics_spec_implemented",
+    "abuse_report_flow",
+    "recovery_tests"
+  ],
+  "required_tests": [
+    "security",
+    "replay",
+    "duplicate_transaction",
+    "analytics_event_contract",
+    "recovery"
+  ],
+  "required_evidence": [
+    "security_test_log",
+    "analytics_event_samples",
+    "audit_log_samples",
+    "recovery_report"
+  ],
+  "kpi_thresholds": {
+    "critical_security_findings": 0,
+    "required_events_coverage_percent": 100
+  },
+  "zero_tolerance": {
+    "idor": false,
+    "unbounded_ai_action": false,
+    "unaudited_admin_decision": false
+  },
+  "go_conditions": [
+    "Abuse and audit controls pass",
+    "Analytics events emitted for funnel",
+    "Recovery flows tested"
+  ],
+  "hold_conditions": [
+    "Security tests incomplete",
+    "Audit data not persisted",
+    "Rate limits absent"
+  ],
+  "pivot_conditions": [
+    "Manual moderation cost exceeds budget",
+    "Fraud pattern requires stronger verification"
+  ],
+  "stop_conditions": [
+    "Cross-user isolation fails",
+    "Admin action cannot be audited"
+  ],
+  "next_allowed_stage": "S4"
+}

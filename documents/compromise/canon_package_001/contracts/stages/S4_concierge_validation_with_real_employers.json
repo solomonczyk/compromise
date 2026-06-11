@@ -1,0 +1,76 @@
+{
+  "stage_id": "S4",
+  "goal": "Проверить боль и ценность на реальных работодателях до платной разработки вторичных функций.",
+  "owner": "Founder / Product Owner",
+  "start_date": "2026-07-08",
+  "deadline": "2026-07-14",
+  "maximum_timebox_days": 7,
+  "planned_budget": 120,
+  "maximum_budget": 260,
+  "entry_criteria": [
+    "S3 accepted",
+    "Landing draft ready",
+    "Support script approved",
+    "No production acceptance implied"
+  ],
+  "in_scope": [
+    "10 employer interviews",
+    "10 candidate interviews",
+    "Manual matching concierge",
+    "Message test",
+    "Landing test"
+  ],
+  "out_of_scope": [
+    "Paid ad scale",
+    "Automated billing",
+    "Guarantee of hiring",
+    "Public marketplace growth claim"
+  ],
+  "deliverables": [
+    "interview_evidence_pack",
+    "concierge_matching_report",
+    "landing_metrics",
+    "message_test_result"
+  ],
+  "required_tests": [
+    "problem_interview_quality",
+    "message_comprehension",
+    "manual_match_acceptance",
+    "privacy_consent_check"
+  ],
+  "required_evidence": [
+    "interview_notes",
+    "consent_records",
+    "landing_event_export",
+    "match_outcomes"
+  ],
+  "kpi_thresholds": {
+    "qualified_employer_interviews": 10,
+    "employers_confirming_pain_percent": 60,
+    "candidate_profile_completion_percent": 50
+  },
+  "zero_tolerance": {
+    "fake_interview_evidence": false,
+    "unconsented_personal_data": false,
+    "promise_of_guaranteed_hire": false
+  },
+  "go_conditions": [
+    "At least 6 employers confirm pain and manual solution value",
+    "At least 3 employers agree to beta follow-up",
+    "Candidates understand value proposition"
+  ],
+  "hold_conditions": [
+    "Interview sample too weak",
+    "Landing events not tracked",
+    "Message unclear"
+  ],
+  "pivot_conditions": [
+    "Employers want vetted candidates rather than open job board",
+    "Candidates are primary payer instead of employers"
+  ],
+  "stop_conditions": [
+    "No repeated employer pain",
+    "Legal/data handling risk not manageable"
+  ],
+  "next_allowed_stage": "S5"
+}

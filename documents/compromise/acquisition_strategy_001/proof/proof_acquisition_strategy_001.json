@@ -1,0 +1,22 @@
+{
+  "package": "COMPROMISE-ACQUISITION-STRATEGY-001",
+  "date": "2026-06-11",
+  "candidate_acquisition_strategy": "READY_FOR_INTEGRATION",
+  "employer_acquisition_strategy": "READY_FOR_INTEGRATION",
+  "platform_map": "READY_FOR_INTEGRATION",
+  "target_employer_accounts": 43,
+  "candidate_channels": 9,
+  "opt_in_only": true,
+  "scraping_forbidden": true,
+  "candidate_privacy_default": "private",
+  "employer_verification_required": true,
+  "first_60_day_targets": {
+    "candidate_profiles_total": 1000,
+    "verified_candidate_profiles": 500,
+    "employers_contacted": 300,
+    "verified_employers": 20,
+    "verified_vacancies": 50,
+    "paid_pilots": 3
+  },
+  "production_accepted": false
+}

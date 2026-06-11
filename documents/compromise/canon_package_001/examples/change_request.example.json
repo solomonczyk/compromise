@@ -1,0 +1,22 @@
+{
+  "change_id": "CR-2026-001",
+  "title": "Add automated payment after paid pilot evidence",
+  "reason": "Paid pilot produced repeated payment demand and manual reconciliation became a bottleneck.",
+  "affected_artifacts": [
+    "docs/02_market_commercial_canon.md",
+    "docs/10_technical_canon.md",
+    "contracts/stages/S6_paid_pilot.json"
+  ],
+  "impact": {
+    "budget_delta_eur": 300,
+    "security_review_required": true,
+    "roadmap_stage": "S7"
+  },
+  "decision": "PROPOSED",
+  "required_adr": true,
+  "acceptance_evidence": [
+    "payment flow threat model",
+    "contract test for duplicate transactions",
+    "operator acceptance record"
+  ]
+}

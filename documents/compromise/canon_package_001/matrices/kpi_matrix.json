@@ -1,0 +1,68 @@
+{
+  "matrix_name": "kpi_matrix",
+  "items": [
+    {
+      "stage_id": "S0",
+      "transition": "documentation lock",
+      "kpi": "traceability coverage",
+      "threshold": "100 percent",
+      "evidence": "validation_report"
+    },
+    {
+      "stage_id": "S1",
+      "transition": "repo readiness",
+      "kpi": "classified files",
+      "threshold": "100 percent of existing files",
+      "evidence": "repo_audit_report"
+    },
+    {
+      "stage_id": "S2",
+      "transition": "core product usability",
+      "kpi": "critical E2E flows",
+      "threshold": "100 percent pass",
+      "evidence": "e2e_report"
+    },
+    {
+      "stage_id": "S3",
+      "transition": "trust readiness",
+      "kpi": "critical security findings",
+      "threshold": "0",
+      "evidence": "security_test_log"
+    },
+    {
+      "stage_id": "S4",
+      "transition": "problem validation",
+      "kpi": "employers confirming pain",
+      "threshold": "60 percent of 10 qualified interviews",
+      "evidence": "interview_notes"
+    },
+    {
+      "stage_id": "S5",
+      "transition": "closed beta traction",
+      "kpi": "applications per active job",
+      "threshold": "minimum 3",
+      "evidence": "analytics_export"
+    },
+    {
+      "stage_id": "S6",
+      "transition": "commercial proof",
+      "kpi": "paid employers",
+      "threshold": "minimum 1 real payment",
+      "evidence": "invoice_or_receipt"
+    },
+    {
+      "stage_id": "S7",
+      "transition": "channel proof",
+      "kpi": "qualified employer lead cost",
+      "threshold": "max 35 EUR",
+      "evidence": "ad_spend_report"
+    },
+    {
+      "stage_id": "S8",
+      "transition": "scale decision",
+      "kpi": "repeatable paid demand",
+      "threshold": "minimum 2 total paid employers",
+      "evidence": "scale_decision_record"
+    }
+  ]
+}

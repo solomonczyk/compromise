@@ -1,0 +1,77 @@
+{
+  "stage_id": "S6",
+  "goal": "Получить первую реальную оплату от работодателя за ограниченный, честно описанный результат.",
+  "owner": "Founder / Sales Owner",
+  "start_date": "2026-07-25",
+  "deadline": "2026-08-03",
+  "maximum_timebox_days": 10,
+  "planned_budget": 150,
+  "maximum_budget": 300,
+  "entry_criteria": [
+    "S5 GO",
+    "Commercial terms approved",
+    "Invoice/payment path defined",
+    "Refund rule written"
+  ],
+  "in_scope": [
+    "3 paid pilot offers",
+    "Manual invoice or payment link",
+    "Employer onboarding",
+    "Candidate shortlisting support",
+    "Payment evidence"
+  ],
+  "out_of_scope": [
+    "Recurring subscription automation",
+    "Guarantee of hire",
+    "Large employer SLA",
+    "Unmoderated job posting"
+  ],
+  "deliverables": [
+    "paid_pilot_contract_notes",
+    "payment_evidence",
+    "pilot_outcome_report",
+    "refund_or_continue_decision"
+  ],
+  "required_tests": [
+    "commercial_acceptance",
+    "payment_flow",
+    "support_flow",
+    "manual_reconciliation",
+    "privacy_review"
+  ],
+  "required_evidence": [
+    "invoice_or_receipt",
+    "employer_acceptance_message",
+    "pilot_metrics",
+    "support_log"
+  ],
+  "kpi_thresholds": {
+    "paid_employers_min": 1,
+    "pilot_revenue_eur_min": 49,
+    "refund_rate_percent_max": 50
+  },
+  "zero_tolerance": {
+    "fake_payment": false,
+    "unclear_paid_boundary": false,
+    "unauthorized_candidate_data_sale": false
+  },
+  "go_conditions": [
+    "At least one paid employer completes payment",
+    "Paid scope delivered",
+    "No refund caused by broken core product"
+  ],
+  "hold_conditions": [
+    "Employers interested but payment delayed",
+    "Payment process unclear",
+    "Support cost unknown"
+  ],
+  "pivot_conditions": [
+    "Paid value is shortlist service rather than job board access",
+    "Price resistance above threshold"
+  ],
+  "stop_conditions": [
+    "No one pays after direct offer",
+    "Payment creates legal/accounting blocker"
+  ],
+  "next_allowed_stage": "S7"
+}

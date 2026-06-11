@@ -1,0 +1,33 @@
+{
+  "project_documentation": "COMPLETE_AND_LOCKED",
+  "managed_product": true,
+  "primary_customer_defined": true,
+  "marketing_strategy_defined": true,
+  "commercial_model_defined": true,
+  "mvp_cut_line_locked": true,
+  "roadmap_bounded": true,
+  "deadlines_defined": true,
+  "budgets_defined": true,
+  "stage_acceptance_defined": true,
+  "go_hold_pivot_stop_defined": true,
+  "master_traceability_complete": true,
+  "fundamental_documentation_layers_remaining": 0,
+  "production_accepted": false,
+  "validation": {
+    "status": "PASS",
+    "script": "scripts/validate_canon_package.py",
+    "checks": [
+      "non_empty_documents",
+      "forbidden_unresolved_tokens_absent",
+      "stage_contracts_valid",
+      "budgets_consistent",
+      "deadlines_increasing",
+      "traceability_complete",
+      "artifact_hashes_match"
+    ],
+    "validated_at": "2026-06-11"
+  },
+  "generated_at": "2026-06-11",
+  "repo_target": "solomonczyk/compromise",
+  "package_id": "COMPROMISE-CANON-PACKAGE-001"
+}

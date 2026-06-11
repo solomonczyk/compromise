@@ -1,0 +1,73 @@
+{
+  "stage_id": "S1",
+  "goal": "Синхронизировать существующую заготовку с каноном: отделить usable code, accidental code и missing product layers.",
+  "owner": "Tech Lead",
+  "start_date": "2026-06-14",
+  "deadline": "2026-06-20",
+  "maximum_timebox_days": 7,
+  "planned_budget": 80,
+  "maximum_budget": 180,
+  "entry_criteria": [
+    "S0 accepted",
+    "Clean git baseline created",
+    "Documentation package copied into repository"
+  ],
+  "in_scope": [
+    "Repository inventory",
+    "Runtime map",
+    "Gap classification",
+    "Architecture alignment plan",
+    "CI skeleton for docs and schemas"
+  ],
+  "out_of_scope": [
+    "New marketplace features",
+    "Paid traffic",
+    "Production deployment",
+    "AI automation beyond mock gateway"
+  ],
+  "deliverables": [
+    "repo_audit_report",
+    "runtime_gap_report",
+    "implementation_plan_for_mvp",
+    "docs_validation_ci"
+  ],
+  "required_tests": [
+    "git_clean_before_work",
+    "runtime_smoke_if_runtime_exists",
+    "docs_validation_script"
+  ],
+  "required_evidence": [
+    "git_status",
+    "commit_sha",
+    "audit_json",
+    "validation_log"
+  ],
+  "kpi_thresholds": {
+    "classified_existing_files_percent": 100,
+    "critical_unknowns_after_stage": 0
+  },
+  "zero_tolerance": {
+    "unclassified_runtime_code": false,
+    "secret_committed": false,
+    "production_deploy": false
+  },
+  "go_conditions": [
+    "Existing implementation classified",
+    "Missing MVP layers listed",
+    "No secrets found"
+  ],
+  "hold_conditions": [
+    "Repo cannot be cloned",
+    "Dependency install fails without classification",
+    "Unknown production credentials found"
+  ],
+  "pivot_conditions": [
+    "Existing stack conflicts with selected stack and replacement is cheaper",
+    "Repo is empty and greenfield path is faster"
+  ],
+  "stop_conditions": [
+    "Legal or security risk found in committed data",
+    "Owner refuses to remove accidental code"
+  ],
+  "next_allowed_stage": "S2"
+}

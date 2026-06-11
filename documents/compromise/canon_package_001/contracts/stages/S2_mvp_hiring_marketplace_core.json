@@ -1,0 +1,80 @@
+{
+  "stage_id": "S2",
+  "goal": "Собрать минимальный работающий job marketplace: вакансии, кандидаты, отклики, employer workspace, moderation queue.",
+  "owner": "Full-stack Lead",
+  "start_date": "2026-06-21",
+  "deadline": "2026-06-30",
+  "maximum_timebox_days": 10,
+  "planned_budget": 250,
+  "maximum_budget": 450,
+  "entry_criteria": [
+    "S1 accepted",
+    "Stack fixed",
+    "Database migrations planned",
+    "MVP cut line unchanged"
+  ],
+  "in_scope": [
+    "Candidate registration",
+    "Employer registration",
+    "Job posting draft/publish",
+    "CV/profile basics",
+    "Application flow",
+    "Admin moderation"
+  ],
+  "out_of_scope": [
+    "Resume database monetization",
+    "Automated ranking authority",
+    "Mobile apps",
+    "Payment capture",
+    "Multi-country tax handling"
+  ],
+  "deliverables": [
+    "frontend_mvp",
+    "backend_api",
+    "database_migrations",
+    "admin_moderation_panel",
+    "seed_data"
+  ],
+  "required_tests": [
+    "unit",
+    "contract",
+    "integration",
+    "database",
+    "state_machine",
+    "e2e_smoke"
+  ],
+  "required_evidence": [
+    "test_report",
+    "migration_log",
+    "api_contract_snapshot",
+    "screenshots"
+  ],
+  "kpi_thresholds": {
+    "critical_e2e_flows_passed_percent": 100,
+    "p0_runtime_bugs": 0
+  },
+  "zero_tolerance": {
+    "cross_user_data_leak": false,
+    "application_without_job": false,
+    "job_publish_without_moderation": false
+  },
+  "go_conditions": [
+    "Candidate can apply to moderated vacancy",
+    "Employer can see applications only for own jobs",
+    "Admin can approve/reject postings"
+  ],
+  "hold_conditions": [
+    "Auth broken",
+    "Database migration unstable",
+    "E2E cannot run"
+  ],
+  "pivot_conditions": [
+    "Existing code too costly to repair",
+    "Concierge-only MVP proves faster for validation"
+  ],
+  "stop_conditions": [
+    "Security isolation cannot be proven",
+    "Data model cannot support applications"
+  ],
+  "next_allowed_stage": "S3"
+}

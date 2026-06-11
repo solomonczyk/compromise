@@ -1,0 +1,6 @@
+{
+  "command": "python scripts/validate_canon_package.py",
+  "returncode": 0,
+  "stdout": "{\n  \"validation\": \"PASS\",\n  \"file_count\": 58,\n  \"stage_contracts\": 9,\n  \"docs\": 18\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compromise Traceability Matrix",
+  "type": "object",
+  "required": [
+    "matrix_name",
+    "requirements"
+  ],
+  "properties": {
+    "matrix_name": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "requirement",
+          "source",
+          "documents",
+          "stage_ids",
+          "tests",
+          "evidence"
+        ]
+      }
+    }
+  }
+}

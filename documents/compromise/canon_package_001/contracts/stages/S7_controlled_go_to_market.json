@@ -1,0 +1,75 @@
+{
+  "stage_id": "S7",
+  "goal": "Запустить ограниченные каналы привлечения только после доказанного paid pilot.",
+  "owner": "Marketing Owner",
+  "start_date": "2026-08-04",
+  "deadline": "2026-08-10",
+  "maximum_timebox_days": 7,
+  "planned_budget": 300,
+  "maximum_budget": 700,
+  "entry_criteria": [
+    "S6 GO",
+    "Landing proven",
+    "Ad claims reviewed",
+    "Support capacity defined"
+  ],
+  "in_scope": [
+    "Organic content",
+    "Referral loop",
+    "Small ad test",
+    "Retargeting-free first test if privacy easier",
+    "Channel stop rules"
+  ],
+  "out_of_scope": [
+    "Large paid acquisition",
+    "Brand claims about market leadership",
+    "Automated sales funnel without support"
+  ],
+  "deliverables": [
+    "gtm_test_report",
+    "channel_metrics",
+    "ad_claims_review",
+    "referral_experiment_result"
+  ],
+  "required_tests": [
+    "landing_conversion",
+    "claim_compliance",
+    "funnel_tracking",
+    "support_capacity"
+  ],
+  "required_evidence": [
+    "analytics_export",
+    "ad_spend_report",
+    "creative_archive",
+    "support_queue_report"
+  ],
+  "kpi_thresholds": {
+    "landing_to_waitlist_percent_min": 5,
+    "employer_lead_cost_eur_max": 35,
+    "qualified_employer_leads_min": 5
+  },
+  "zero_tolerance": {
+    "ad_claim_beyond_product_readiness": false,
+    "marketing_without_tracking": false,
+    "production_accepted": false
+  },
+  "go_conditions": [
+    "At least one channel produces qualified employer leads within budget",
+    "Support can handle leads",
+    "No misleading claims"
+  ],
+  "hold_conditions": [
+    "Tracking mismatch",
+    "Ad fatigue early",
+    "Lead quality unclear"
+  ],
+  "pivot_conditions": [
+    "Referral outperforms ads",
+    "Content attracts candidates but not employers"
+  ],
+  "stop_conditions": [
+    "Paid channel spends maximum budget without qualified leads",
+    "Complaints indicate misleading positioning"
+  ],
+  "next_allowed_stage": "S8"
+}

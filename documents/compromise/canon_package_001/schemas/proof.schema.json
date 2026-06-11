@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compromise Documentation Proof",
+  "type": "object",
+  "required": [
+    "project_documentation",
+    "managed_product",
+    "primary_customer_defined",
+    "marketing_strategy_defined",
+    "commercial_model_defined",
+    "mvp_cut_line_locked",
+    "roadmap_bounded",
+    "deadlines_defined",
+    "budgets_defined",
+    "stage_acceptance_defined",
+    "go_hold_pivot_stop_defined",
+    "master_traceability_complete",
+    "fundamental_documentation_layers_remaining",
+    "production_accepted",
+    "validation"
+  ],
+  "properties": {
+    "project_documentation": {
+      "const": "COMPLETE_AND_LOCKED"
+    },
+    "managed_product": {
+      "const": true
+    },
+    "primary_customer_defined": {
+      "const": true
+    },
+    "marketing_strategy_defined": {
+      "const": true
+    },
+    "commercial_model_defined": {
+      "const": true
+    },
+    "mvp_cut_line_locked": {
+      "const": true
+    },
+    "roadmap_bounded": {
+      "const": true
+    },
+    "deadlines_defined": {
+      "const": true
+    },
+    "budgets_defined": {
+      "const": true
+    },
+    "stage_acceptance_defined": {
+      "const": true
+    },
+    "go_hold_pivot_stop_defined": {
+      "const": true
+    },
+    "master_traceability_complete": {
+      "const": true
+    },
+    "fundamental_documentation_layers_remaining": {
+      "const": 0
+    },
+    "production_accepted": {
+      "const": false
+    },
+    "validation": {
+      "type": "object"
+    }
+  }
+}

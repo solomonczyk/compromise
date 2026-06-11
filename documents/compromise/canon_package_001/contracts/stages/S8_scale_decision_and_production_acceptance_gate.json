@@ -1,0 +1,77 @@
+{
+  "stage_id": "S8",
+  "goal": "Принять решение GO/HOLD/PIVOT/STOP для масштабирования, не открывая production автоматически.",
+  "owner": "Founder + Technical Owner",
+  "start_date": "2026-08-11",
+  "deadline": "2026-08-17",
+  "maximum_timebox_days": 7,
+  "planned_budget": 80,
+  "maximum_budget": 180,
+  "entry_criteria": [
+    "S7 completed",
+    "Commercial evidence exists",
+    "Security and support reports complete"
+  ],
+  "in_scope": [
+    "Scale decision",
+    "Production readiness review",
+    "Unit economics review",
+    "Risk reclassification",
+    "ADR for next investment"
+  ],
+  "out_of_scope": [
+    "Automatic production_accepted=true",
+    "Unbounded hiring marketplace growth",
+    "New fundamental docs layer"
+  ],
+  "deliverables": [
+    "scale_decision_record",
+    "production_readiness_review",
+    "unit_economics_report",
+    "next_adr_or_change_request"
+  ],
+  "required_tests": [
+    "production_readiness_checklist",
+    "security_regression",
+    "load_smoke",
+    "support_readiness",
+    "financial_review"
+  ],
+  "required_evidence": [
+    "decision_log_update",
+    "proof_json_update",
+    "test_report",
+    "budget_actuals"
+  ],
+  "kpi_thresholds": {
+    "paid_employers_total_min": 2,
+    "gross_margin_estimate_percent_min": 40,
+    "p0_open_bugs": 0
+  },
+  "zero_tolerance": {
+    "production_accepted_without_operator_gate": false,
+    "scale_without_payment_evidence": false,
+    "security_blocker_open": false
+  },
+  "go_conditions": [
+    "Payment evidence repeatable",
+    "Support cost acceptable",
+    "No security blocker",
+    "Operator explicitly accepts production"
+  ],
+  "hold_conditions": [
+    "Metrics promising but evidence incomplete",
+    "Support capacity insufficient",
+    "Cost model uncertain"
+  ],
+  "pivot_conditions": [
+    "Concierge service monetizes better than self-serve platform",
+    "Niche segment outperforms broad market"
+  ],
+  "stop_conditions": [
+    "No repeated paid demand",
+    "Unit economics negative without clear fix",
+    "Legal risk too high"
+  ],
+  "next_allowed_stage": "NONE"
+}

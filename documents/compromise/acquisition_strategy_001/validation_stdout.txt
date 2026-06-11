@@ -1,0 +1,7 @@
+{
+  "validation": "PASS",
+  "required_files": 8,
+  "candidate_channels": 9,
+  "employer_target_accounts": 43,
+  "production_accepted": false
+}

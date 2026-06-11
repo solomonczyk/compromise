@@ -1,0 +1,80 @@
+{
+  "stage_id": "S5",
+  "goal": "Провести закрытую бету с ограниченным количеством работодателей и кандидатов без публичного маркетингового шума.",
+  "owner": "Product Owner + Support Owner",
+  "start_date": "2026-07-15",
+  "deadline": "2026-07-24",
+  "maximum_timebox_days": 10,
+  "planned_budget": 200,
+  "maximum_budget": 420,
+  "entry_criteria": [
+    "S4 GO",
+    "Beta terms accepted",
+    "Support workflow staffed",
+    "Critical UX issues fixed"
+  ],
+  "in_scope": [
+    "5 employers",
+    "50 candidates",
+    "20 moderated vacancies",
+    "Manual support",
+    "Bug triage",
+    "Beta feedback"
+  ],
+  "out_of_scope": [
+    "Paid ads",
+    "Self-serve payments",
+    "Resume database sale",
+    "Production accepted flag"
+  ],
+  "deliverables": [
+    "closed_beta_report",
+    "defect_log",
+    "support_log",
+    "conversion_metrics"
+  ],
+  "required_tests": [
+    "e2e",
+    "visual",
+    "device",
+    "accessibility",
+    "support_response",
+    "audit_completeness"
+  ],
+  "required_evidence": [
+    "browser_screenshots",
+    "device_matrix",
+    "support_transcripts_summary",
+    "analytics_export"
+  ],
+  "kpi_thresholds": {
+    "employers_activated": 5,
+    "jobs_published": 10,
+    "applications_per_active_job_min": 3,
+    "critical_bug_count": 0
+  },
+  "zero_tolerance": {
+    "paid_claim_without_payment": false,
+    "production_accepted": false,
+    "unreviewed_visual_pass": false
+  },
+  "go_conditions": [
+    "Beta users complete primary flows",
+    "Support issues manageable",
+    "At least 2 employers request paid pilot"
+  ],
+  "hold_conditions": [
+    "Visual QA rejected",
+    "Support overwhelmed",
+    "Activation below threshold"
+  ],
+  "pivot_conditions": [
+    "Employers only value concierge recruiting",
+    "Open applications produce low-quality noise"
+  ],
+  "stop_conditions": [
+    "Trust failure with real users",
+    "Data deletion/export cannot be honored"
+  ],
+  "next_allowed_stage": "S6"
+}

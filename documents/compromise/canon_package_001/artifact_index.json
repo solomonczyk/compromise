@@ -1,0 +1,288 @@
+{
+  "package_id": "COMPROMISE-CANON-PACKAGE-001",
+  "generated_at": "2026-06-11",
+  "hash_algorithm": "SHA256",
+  "hash_scope": "All package files except artifact_index.json and checksums.sha256 because those files are self-referential inventory files.",
+  "items": [
+    {
+      "path": "contracts/roadmap.stage_contracts_summary.json",
+      "sha256": "82e659881411230621a54d769b2876223cc4d13babe6b8ece1d22ff86b2f35e8",
+      "bytes": 2612
+    },
+    {
+      "path": "contracts/stages/S0_canon_lock_and_blind_implementation_audit.json",
+      "sha256": "26b2105b15e5d8973d8b002d5f842b10c206c8d2f4f56e253ec72b7150b58d2a",
+      "bytes": 2319
+    },
+    {
+      "path": "contracts/stages/S1_repository_recovery_and_architecture_alignment.json",
+      "sha256": "82dfd9ffb31bfcd103d39c6853497328cc798d3ef32fef62619be30e45d04508",
+      "bytes": 2011
+    },
+    {
+      "path": "contracts/stages/S2_mvp_hiring_marketplace_core.json",
+      "sha256": "181f212eeada0463d55d302cc326979da4946eeb6aeb1c953a571ce5e241b263",
+      "bytes": 2023
+    },
+    {
+      "path": "contracts/stages/S3_trust,_safety,_analytics_and_recovery_layer.json",
+      "sha256": "4e95dbe6c52159869973a98b2eeb452dffb9253b017ce315cf70003dcf907109",
+      "bytes": 1903
+    },
+    {
+      "path": "contracts/stages/S4_concierge_validation_with_real_employers.json",
+      "sha256": "458c90ea7cb889dcc1f903ad5c9d64a97ce5befa37a72af3bc061fa1b385d220",
+      "bytes": 2130
+    },
+    {
+      "path": "contracts/stages/S5_closed_beta.json",
+      "sha256": "26bd9e84af9ec9eac3544b09c7550b68a979a7cfd758f3467404dc01bc7d55a0",
+      "bytes": 2042
+    },
+    {
+      "path": "contracts/stages/S6_paid_pilot.json",
+      "sha256": "19913bf25dfbe3aec1dda17c3479d0c3ea7e871862c91d1ae2a677b52c314464",
+      "bytes": 2083
+    },
+    {
+      "path": "contracts/stages/S7_controlled_go_to_market.json",
+      "sha256": "aa791643c60d40b35ae7a7b55b7c35848f5c54966752cf7f8c74ccc24c9400db",
+      "bytes": 1993
+    },
+    {
+      "path": "contracts/stages/S8_scale_decision_and_production_acceptance_gate.json",
+      "sha256": "2d330e23f10f9a6a639b1c42e35658f826076009dc2f10f1318abf428f7f1078",
+      "bytes": 2130
+    },
+    {
+      "path": "docs/00_MASTER_INDEX.md",
+      "sha256": "3a799d8d5ba92b1bda3402c2a94a19dc8d1aab6878edcde7c07fc2c0a01e7eb6",
+      "bytes": 4443
+    },
+    {
+      "path": "docs/01_product_canon.md",
+      "sha256": "d47d453b99c9120c0293109ca43756f5a71e066bf7eae5a3dbbcd54a3dd8a620",
+      "bytes": 5466
+    },
+    {
+      "path": "docs/02_market_commercial_canon.md",
+      "sha256": "e3bead9f9bd51a3b84f024461be4887d01ea80166e8798020610a435878e80b2",
+      "bytes": 4552
+    },
+    {
+      "path": "docs/03_marketing_gtm_strategy.md",
+      "sha256": "2861dad479bb1cb5a0040aa063396c2554c1eed36b0bc2df3df1cfce30ca0468",
+      "bytes": 3735
+    },
+    {
+      "path": "docs/04_customer_validation.md",
+      "sha256": "af5cf5bff517e20287e4a780aa3359fa66a1366266b85640e51db53fb74a1bf2",
+      "bytes": 3199
+    },
+    {
+      "path": "docs/05_product_roadmap.md",
+      "sha256": "c5e692eb96083d3530eec6cd59751bfb9869128dc7720eaafe0fbdf31b7ca8ac",
+      "bytes": 3772
+    },
+    {
+      "path": "docs/06_financial_boundaries.md",
+      "sha256": "410dacecb6bd767be1dc7c650c0500444c83308082fb24955ccce19edaecd09e",
+      "bytes": 2826
+    },
+    {
+      "path": "docs/07_product_requirements.md",
+      "sha256": "e58de1b69c5d4b9b1bb353ed6678d4dcd2cc01104c00f5189dd108afa988a0cf",
+      "bytes": 4274
+    },
+    {
+      "path": "docs/08_domain_methodology.md",
+      "sha256": "751510282b4d2f694a53e9ecad86a291a22e87e5c52e8885c8b8601e07a5e56b",
+      "bytes": 3007
+    },
+    {
+      "path": "docs/09_ux_design_canon.md",
+      "sha256": "91c24994b65e552d30a8a15580fa18e68c2b6f609bc0d7ea5f9a343705b5bc0c",
+      "bytes": 3326
+    },
+    {
+      "path": "docs/10_technical_canon.md",
+      "sha256": "a374edde43bd5673521fc8bb658d100e45530cb9fcfb1cf535f31ee94ed80708",
+      "bytes": 4365
+    },
+    {
+      "path": "docs/11_security_privacy.md",
+      "sha256": "92b37d804227f88d6476b384dae72c0727c540bff213be6f711d27a2bfd9520f",
+      "bytes": 3251
+    },
+    {
+      "path": "docs/12_dangerous_action_gates.md",
+      "sha256": "ab4733a75fe92fbf737abc19cbaaaef34a3ff2a1e46a06f5f213f8e59e82f230",
+      "bytes": 2734
+    },
+    {
+      "path": "docs/13_testing_acceptance.md",
+      "sha256": "9893bd5544e2849233800fc94f1055b2979b70fb7d9ce85d4103597851cc473a",
+      "bytes": 3724
+    },
+    {
+      "path": "docs/14_operations.md",
+      "sha256": "94cbde28dec2042887bd461fb6b6f6a49bf743cccb9a560bc073248a9c3ca27c",
+      "bytes": 2363
+    },
+    {
+      "path": "docs/15_governance.md",
+      "sha256": "fa557aa7ff1f8c8bd5d3ab0de12cefbc7c15630b99628ee5096a3ec86723e74c",
+      "bytes": 2077
+    },
+    {
+      "path": "docs/16_current_state_audit.md",
+      "sha256": "ea78379fb39e8f5b9b93da86c89f0f12dc055be18a5376b7baaeb970036bf272",
+      "bytes": 1539
+    },
+    {
+      "path": "docs/17_mvp_scope_cut_line.md",
+      "sha256": "cd593c9dfdea1c2cb5956905cf5701ddde06a439c8e752647c09b1bdb1ae5449",
+      "bytes": 1748
+    },
+    {
+      "path": "examples/adr.example.json",
+      "sha256": "c94219a8703865e2a848443f3cee17d914e6cda63e855bd404e78c5e138cca9f",
+      "bytes": 624
+    },
+    {
+      "path": "examples/change_request.example.json",
+      "sha256": "6338dae0cffa683c2360524ea8a1b4e49ed2f1246639ee87034d6a42e3c6fc19",
+      "bytes": 658
+    },
+    {
+      "path": "examples/stage_contract.example.json",
+      "sha256": "26b2105b15e5d8973d8b002d5f842b10c206c8d2f4f56e253ec72b7150b58d2a",
+      "bytes": 2319
+    },
+    {
+      "path": "matrices/budget_matrix.json",
+      "sha256": "177acd237c6e34292f2895dfbbb8207da20937bd4a5ee57dff3a00286d41a1aa",
+      "bytes": 2643
+    },
+    {
+      "path": "matrices/budget_matrix.md",
+      "sha256": "1a9e49a88fe9c0fab11233425d295ae5a435fc0a9cf5575aeeb0729287d4ec61",
+      "bytes": 1298
+    },
+    {
+      "path": "matrices/kpi_matrix.json",
+      "sha256": "8af79c8a9f7b23e907c91c42bcdc80ae59dd15a9f74bd9dbbfea17c791859639",
+      "bytes": 1807
+    },
+    {
+      "path": "matrices/kpi_matrix.md",
+      "sha256": "9b7aa5e3d07c8f429cbe22d3c85cd34c64afe9ba32ea31ed07d392c55fd85ee3",
+      "bytes": 930
+    },
+    {
+      "path": "matrices/master_traceability_matrix.json",
+      "sha256": "d3df28f80502da7c87752c928d23eba0844182753e3f7da8efc1d60fca5219e6",
+      "bytes": 7435
+    },
+    {
+      "path": "matrices/master_traceability_matrix.md",
+      "sha256": "3b374b431d42bec50d593199ac6fdc26d014ce6ea4225a76b185463449ead738",
+      "bytes": 3235
+    },
+    {
+      "path": "proof/proof_compromise_canon_001.json",
+      "sha256": "ba4a42d7fbf549e203a9fea678b533df56e81eb16a735cab7d24ec393cf67820",
+      "bytes": 999
+    },
+    {
+      "path": "proof/validation_report.json",
+      "sha256": "4ae4e820fb5d7791c77d23e94a0dcc30fe97a3086e8ea48da6afbc8ef7553d00",
+      "bytes": 212
+    },
+    {
+      "path": "registers/assumptions_register.json",
+      "sha256": "d7e679e2d7da6f6f50dd4865ddaed18512bac410a81b8cfec3107d34c9109b6a",
+      "bytes": 2892
+    },
+    {
+      "path": "registers/assumptions_register.md",
+      "sha256": "4084b6bb7d18ef602180de71ea057e613330b52459e38aa1fd2ad7f8043b84d3",
+      "bytes": 2660
+    },
+    {
+      "path": "registers/decision_log.json",
+      "sha256": "849288d0f22308795332378d32de2d29d8c8ce09ebb66cb5bcc3cf90416c20bc",
+      "bytes": 1818
+    },
+    {
+      "path": "registers/decision_log.md",
+      "sha256": "8b440c91cd84b3d3e19ee1dff6c95d7e7eb1d59f4195457fdf59953fc15ad21a",
+      "bytes": 1616
+    },
+    {
+      "path": "registers/dependency_register.json",
+      "sha256": "a60891b1b3331fdc3d1250ff57b4453beb5e406c493f157b52cb90b808ed96e6",
+      "bytes": 1432
+    },
+    {
+      "path": "registers/dependency_register.md",
+      "sha256": "c8bf846389c45a00fd7dfc7aa50a70483c2163c6dcd894f01fc16dbdcecd39ca",
+      "bytes": 1124
+    },
+    {
+      "path": "registers/owner_matrix.json",
+      "sha256": "de20fe869d6ad6a2856e54e958e77689d50aadb992a48dfcca43c3e724188556",
+      "bytes": 1037
+    },
+    {
+      "path": "registers/owner_matrix.md",
+      "sha256": "ad878777e5e9e9bd1cfb67fa9d69597b7a8fa230cd95cb5e027126dbfc01fc9d",
+      "bytes": 936
+    },
+    {
+      "path": "registers/risk_register.json",
+      "sha256": "18af2da05b6871cf1991f2941a7c038e3ffd732e0f735b58912d7cd1719a3333",
+      "bytes": 2851
+    },
+    {
+      "path": "registers/risk_register.md",
+      "sha256": "0cf0f022ba3defc79fb4c12acb2bfe4b592fb34f57afc03feaecec5fd250ad49",
+      "bytes": 2552
+    },
+    {
+      "path": "schemas/adr.schema.json",
+      "sha256": "8756a90eda8d6f67138dd3b076560bc622a7bb195c7562f06efbd3c187ca4ea5",
+      "bytes": 699
+    },
+    {
+      "path": "schemas/change_request.schema.json",
+      "sha256": "331796e5cd345fd1b3e465b7eb15b8d3aae7092d7393706141bd7ae8a250c29b",
+      "bytes": 899
+    },
+    {
+      "path": "schemas/proof.schema.json",
+      "sha256": "340b66a0e9526b5696fa9dc9254ddf844f4d42a807e3773d061ca453dee8066d",
+      "bytes": 1514
+    },
+    {
+      "path": "schemas/register.schema.json",
+      "sha256": "550c76ee84e92461f9bf46baf5d8d95d9d837d704593aeeedb7115ff3c7194d1",
+      "bytes": 342
+    },
+    {
+      "path": "schemas/stage_contract.schema.json",
+      "sha256": "27d52b9e6b73e6d61bbc33723ca68780271510e80eaade0385dc17e5ebe76c05",
+      "bytes": 2893
+    },
+    {
+      "path": "schemas/traceability.schema.json",
+      "sha256": "192c96df425a6273387f9c030f3a03c699b713a8da31fc334a5d083a3fef8d4c",
+      "bytes": 543
+    },
+    {
+      "path": "scripts/validate_canon_package.py",
+      "sha256": "900e556f09ab9263c9762e4a7f8483f483853fc3e0dbf0b7b56ed20aeab39926",
+      "bytes": 4949
+    }
+  ]
+}

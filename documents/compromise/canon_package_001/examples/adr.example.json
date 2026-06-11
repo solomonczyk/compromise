@@ -1,0 +1,13 @@
+{
+  "adr_id": "ADR-2026-001",
+  "title": "Select Next.js, FastAPI and PostgreSQL as the fixed MVP stack",
+  "status": "ACCEPTED",
+  "context": "The project needs fast delivery, clear API contracts and durable relational data for jobs, profiles and applications.",
+  "decision": "Use Next.js frontend, FastAPI backend, PostgreSQL database, Redis only for rate limits and queues, and an AI Gateway behind explicit gates.",
+  "consequences": [
+    "No parallel stack exploration inside MVP",
+    "All migrations are versioned",
+    "All AI features remain advisory until accepted by domain gates"
+  ],
+  "date": "2026-06-11"
+}

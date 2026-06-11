@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compromise ADR",
+  "type": "object",
+  "required": [
+    "adr_id",
+    "title",
+    "status",
+    "context",
+    "decision",
+    "consequences",
+    "date"
+  ],
+  "properties": {
+    "adr_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "ACCEPTED",
+        "SUPERSEDED",
+        "REJECTED"
+      ]
+    },
+    "context": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "consequences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+priority,channel,search_query_or_source,audience,offer,first_action,target_60d_profiles,risk_control
+P0,Telegram communities,работа Сербия / украинцы в Сербии / русские в Сербии / релокация Сербия,relocated candidates,Free CV audit + verified jobs,ask admin permission,300,no scraping; admin approval
+P0,Facebook groups,Ukrainians in Serbia / Expats in Belgrade / Jobs in Serbia,relocation/local candidates,Work in Serbia guide + profile,ask admin permission,250,follow group rules
+P0,SEO pages,работа в Сербии для украинцев / работа без сербского,search-intent candidates,guide + intake,publish 10 pages,100,no false promise
+P0,Referral,candidate invites friends,warm candidates,priority CV review,launch referral code,100,no cash spam
+P1,LinkedIn,Russian speaker jobs Serbia / Ukrainian speaker jobs Europe,skilled/remote candidates,private talent pool,founder-led posts,100,manual outreach only
+P1,Universities/career centers,Belgrade/Novi Sad/Nis/Subotica,students/juniors,first-job profile,contact offices,50,partner approval
+P1,Language schools,Serbian/English schools,migrants/language learners,jobs by language level,partner referral,50,no misleading claims
+P2,EURES/European Job Days,EU mobility events,EU jobseekers,mobility guide,monitor/participate,25,source attribution
+P2,Coworkings/meetups,Belgrade/Novi Sad expat tech meetups,expats/digital candidates,career clinic,QR signup,25,opt-in only

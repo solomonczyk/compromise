@@ -1,0 +1,338 @@
+{
+  "matrix_name": "master_traceability_matrix",
+  "requirements": [
+    {
+      "id": "REQ-PROD-001",
+      "requirement": "Problem, audience, JTBD, personas, value proposition and positioning are defined",
+      "source": "User request",
+      "documents": [
+        "docs/01_product_canon.md"
+      ],
+      "stage_ids": [
+        "S0"
+      ],
+      "tests": [
+        "documentation_non_empty"
+      ],
+      "evidence": [
+        "proof_json"
+      ]
+    },
+    {
+      "id": "REQ-PROD-002",
+      "requirement": "MVP scope and hard cut line are locked",
+      "source": "User request",
+      "documents": [
+        "docs/17_mvp_scope_cut_line.md"
+      ],
+      "stage_ids": [
+        "S0",
+        "S2"
+      ],
+      "tests": [
+        "traceability_coverage",
+        "e2e_smoke"
+      ],
+      "evidence": [
+        "mvp_cut_line_section",
+        "stage_contracts"
+      ]
+    },
+    {
+      "id": "REQ-MKT-001",
+      "requirement": "Market, competitors, commercial model and pricing hypotheses are defined",
+      "source": "User request",
+      "documents": [
+        "docs/02_market_commercial_canon.md"
+      ],
+      "stage_ids": [
+        "S0",
+        "S4",
+        "S6"
+      ],
+      "tests": [
+        "message_test",
+        "commercial_acceptance"
+      ],
+      "evidence": [
+        "interview_notes",
+        "payment_evidence"
+      ]
+    },
+    {
+      "id": "REQ-GTM-001",
+      "requirement": "Marketing strategy, funnel, landing, onboarding, beta, referral and channel stop rules are defined",
+      "source": "User request",
+      "documents": [
+        "docs/03_marketing_gtm_strategy.md"
+      ],
+      "stage_ids": [
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "tests": [
+        "landing_conversion",
+        "claim_compliance"
+      ],
+      "evidence": [
+        "analytics_export",
+        "creative_archive"
+      ]
+    },
+    {
+      "id": "REQ-VAL-001",
+      "requirement": "Customer validation path and evidence validity rules are defined",
+      "source": "User request",
+      "documents": [
+        "docs/04_customer_validation.md"
+      ],
+      "stage_ids": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "tests": [
+        "problem_interview_quality",
+        "paid_pilot_validation"
+      ],
+      "evidence": [
+        "interview_evidence_pack",
+        "payment_evidence"
+      ]
+    },
+    {
+      "id": "REQ-ROAD-001",
+      "requirement": "Roadmap has finite stages, dates, owners, entry and exit criteria",
+      "source": "User request",
+      "documents": [
+        "docs/05_product_roadmap.md"
+      ],
+      "stage_ids": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8"
+      ],
+      "tests": [
+        "stage_contract_validation"
+      ],
+      "evidence": [
+        "contracts/stages"
+      ]
+    },
+    {
+      "id": "REQ-FIN-001",
+      "requirement": "Financial boundaries and budget overrun rules are defined",
+      "source": "User request",
+      "documents": [
+        "docs/06_financial_boundaries.md"
+      ],
+      "stage_ids": [
+        "S0",
+        "S6",
+        "S8"
+      ],
+      "tests": [
+        "budget_matrix_validation"
+      ],
+      "evidence": [
+        "matrices/budget_matrix.json"
+      ]
+    },
+    {
+      "id": "REQ-PRD-001",
+      "requirement": "Functional and non-functional product requirements are defined",
+      "source": "User request",
+      "documents": [
+        "docs/07_product_requirements.md"
+      ],
+      "stage_ids": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "tests": [
+        "unit",
+        "contract",
+        "integration",
+        "e2e"
+      ],
+      "evidence": [
+        "test_report"
+      ]
+    },
+    {
+      "id": "REQ-DOM-001",
+      "requirement": "Recruitment methodology and authority boundaries are defined",
+      "source": "User request",
+      "documents": [
+        "docs/08_domain_methodology.md"
+      ],
+      "stage_ids": [
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "tests": [
+        "domain_acceptance",
+        "human_review"
+      ],
+      "evidence": [
+        "moderation_log"
+      ]
+    },
+    {
+      "id": "REQ-UX-001",
+      "requirement": "UX, design rules and operator visual review are defined",
+      "source": "User request",
+      "documents": [
+        "docs/09_ux_design_canon.md"
+      ],
+      "stage_ids": [
+        "S2",
+        "S5"
+      ],
+      "tests": [
+        "visual",
+        "accessibility",
+        "device"
+      ],
+      "evidence": [
+        "device_matrix",
+        "visual_review_record"
+      ]
+    },
+    {
+      "id": "REQ-TECH-001",
+      "requirement": "Selected stack, architecture, API, DB, CI/CD and rollback are defined without alternatives",
+      "source": "User request",
+      "documents": [
+        "docs/10_technical_canon.md"
+      ],
+      "stage_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "tests": [
+        "contract",
+        "migration",
+        "rollback"
+      ],
+      "evidence": [
+        "api_contract_snapshot",
+        "migration_log"
+      ]
+    },
+    {
+      "id": "REQ-SEC-001",
+      "requirement": "Security, privacy and incident response controls are defined",
+      "source": "User request",
+      "documents": [
+        "docs/11_security_privacy.md"
+      ],
+      "stage_ids": [
+        "S3",
+        "S5",
+        "S8"
+      ],
+      "tests": [
+        "security",
+        "privacy_export_delete",
+        "incident_drill"
+      ],
+      "evidence": [
+        "security_test_log",
+        "incident_report"
+      ]
+    },
+    {
+      "id": "REQ-GATE-001",
+      "requirement": "Dangerous-action gates separate technical, business, visual and production acceptance",
+      "source": "User request",
+      "documents": [
+        "docs/12_dangerous_action_gates.md"
+      ],
+      "stage_ids": [
+        "S0",
+        "S3",
+        "S5",
+        "S8"
+      ],
+      "tests": [
+        "gate_validation"
+      ],
+      "evidence": [
+        "proof_json"
+      ]
+    },
+    {
+      "id": "REQ-TEST-001",
+      "requirement": "Testing and acceptance matrix defines scope, tool, owner, pass criteria, blocker, artifact and evidence",
+      "source": "User request",
+      "documents": [
+        "docs/13_testing_acceptance.md"
+      ],
+      "stage_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S8"
+      ],
+      "tests": [
+        "all_required_tests"
+      ],
+      "evidence": [
+        "test_evidence"
+      ]
+    },
+    {
+      "id": "REQ-OPS-001",
+      "requirement": "Operations, support, monitoring, backups, complaints, payment issues and releases are defined",
+      "source": "User request",
+      "documents": [
+        "docs/14_operations.md"
+      ],
+      "stage_ids": [
+        "S3",
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "tests": [
+        "support_response",
+        "backup_restore"
+      ],
+      "evidence": [
+        "support_log",
+        "restore_report"
+      ]
+    },
+    {
+      "id": "REQ-GOV-001",
+      "requirement": "Governance, ADR, change requests, registers and artifact index are defined",
+      "source": "User request",
+      "documents": [
+        "docs/15_governance.md"
+      ],
+      "stage_ids": [
+        "S0",
+        "S8"
+      ],
+      "tests": [
+        "governance_validation"
+      ],
+      "evidence": [
+        "registers",
+        "artifact_index"
+      ]
+    }
+  ]
+}

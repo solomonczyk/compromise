@@ -1,0 +1,80 @@
+{
+  "matrix_name": "budget_matrix",
+  "currency": "EUR",
+  "total_planned_budget": 1360,
+  "total_maximum_budget": 2890,
+  "category_caps": {
+    "ai_api_budget": 120,
+    "infrastructure_budget": 160,
+    "design_and_testing_budget": 300,
+    "marketing_budget": 700,
+    "support_budget": 250,
+    "legal_review_budget": 300,
+    "contingency_reserve": 300
+  },
+  "items": [
+    {
+      "stage_id": "S0",
+      "stage": "Canon Lock and Blind-Implementation Audit",
+      "planned_budget": 0,
+      "maximum_budget": 50,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S1",
+      "stage": "Repository Recovery and Architecture Alignment",
+      "planned_budget": 80,
+      "maximum_budget": 180,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S2",
+      "stage": "MVP Hiring Marketplace Core",
+      "planned_budget": 250,
+      "maximum_budget": 450,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S3",
+      "stage": "Trust, Safety, Analytics and Recovery Layer",
+      "planned_budget": 180,
+      "maximum_budget": 350,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S4",
+      "stage": "Concierge Validation with Real Employers",
+      "planned_budget": 120,
+      "maximum_budget": 260,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S5",
+      "stage": "Closed Beta",
+      "planned_budget": 200,
+      "maximum_budget": 420,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S6",
+      "stage": "Paid Pilot",
+      "planned_budget": 150,
+      "maximum_budget": 300,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S7",
+      "stage": "Controlled Go-To-Market",
+      "planned_budget": 300,
+      "maximum_budget": 700,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    },
+    {
+      "stage_id": "S8",
+      "stage": "Scale Decision and Production Acceptance Gate",
+      "planned_budget": 80,
+      "maximum_budget": 180,
+      "budget_overrun_rule": "HOLD if actual exceeds planned; STOP or ADR if actual would exceed maximum"
+    }
+  ]
+}
