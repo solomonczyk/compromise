@@ -46,8 +46,8 @@ export default function Register() {
         <div>
           <div className="overline mb-4">// CREATE ACCOUNT</div>
           <h1 className="font-heading font-black text-5xl tracking-tighter leading-tight">
-            Найди работу.<br/>
-            <span className="text-[#FACC15]">За один вечер.</span>
+            Найди работу<br/>
+            <span className="text-[#FACC15]">За один вечер</span>
           </h1>
           <p className="mt-6 text-zinc-400 max-w-md">
             AI подберёт первые 6 вакансий сразу после регистрации. Резюме сгенерируется автоматически.

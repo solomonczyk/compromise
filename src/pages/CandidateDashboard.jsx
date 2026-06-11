@@ -34,7 +34,7 @@ export default function CandidateDashboard() {
       <Navbar />
       <div className="max-w-7xl mx-auto px-6 py-10">
         <div className="overline mb-3">// DASHBOARD / CANDIDATE</div>
-        <h1 className="font-heading font-black text-4xl md:text-5xl tracking-tighter mb-2">Привет, {user.name.split(" ")[0]}.</h1>
+        <h1 className="font-heading font-black text-4xl md:text-5xl tracking-tighter mb-2">Привет, {user.name.split(" ")[0]}</h1>
         <p className="text-zinc-400 mb-10">Вот что AI подобрал для тебя.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-zinc-800 mb-10">

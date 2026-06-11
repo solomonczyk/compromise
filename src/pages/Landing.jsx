@@ -17,9 +17,9 @@ export default function Landing() {
           <div className="md:col-span-8 fade-up">
             <div className="overline mb-6" data-testid="hero-overline">// JOB.SEARCH / V1.0 / FOR ENGINEERS</div>
             <h1 className="font-heading font-black text-5xl sm:text-6xl md:text-7xl tracking-tighter leading-[0.95]">
-              Работа в IT.<br/>
-              <span className="text-[#FACC15]">Без воды.</span><br/>
-              <span className="text-zinc-500">Без рекрутёрского спама.</span>
+              Работа в IT<br/>
+              <span className="text-[#FACC15]">Без воды</span><br/>
+              <span className="text-zinc-500">Без рекрутёрского спама</span>
             </h1>
             <p className="mt-8 text-lg text-zinc-400 max-w-xl leading-relaxed">
               JobPulse — это анти-LinkedIn для технарей. AI-подбор вакансий, прямой чат
@@ -78,7 +78,7 @@ export default function Landing() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="md:col-span-12 mb-8">
             <div className="overline mb-4">// FEATURES</div>
-            <h2 className="font-heading font-black text-4xl md:text-5xl tracking-tighter">Платформа собрана для технарей.</h2>
+            <h2 className="font-heading font-black text-4xl md:text-5xl tracking-tighter">Платформа собрана для технарей</h2>
           </div>
 
           <div className="md:col-span-6 card-surface p-8 md:row-span-2">

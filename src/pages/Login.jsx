@@ -43,7 +43,7 @@ export default function Login() {
         </Link>
 
         <div className="overline mb-3">// SIGN IN</div>
-        <h1 className="font-heading font-black text-4xl tracking-tighter mb-2">С возвращением.</h1>
+        <h1 className="font-heading font-black text-4xl tracking-tighter mb-2">С возвращением</h1>
         <p className="text-sm text-zinc-400 mb-8">Нет аккаунта? <Link to="/register" className="text-[#FACC15] hover:underline" data-testid="register-link">Зарегистрироваться</Link></p>
 
         <form onSubmit={onSubmit} className="space-y-3">
